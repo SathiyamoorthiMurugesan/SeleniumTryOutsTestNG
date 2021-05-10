@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class Base {
 	
-	static WebDriver driver;
+	public static WebDriver driver;
 	@BeforeSuite
 	public static WebDriver openBrower() {
 		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
