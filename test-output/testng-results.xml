@@ -2,19 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="104" started-at="2021-05-10T21:31:13 IST" finished-at="2021-05-10T21:31:13 IST">
+  <suite name="Default suite" duration-ms="10427" started-at="2021-05-12T14:06:40 IST" finished-at="2021-05-12T14:06:51 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="104" started-at="2021-05-10T21:31:13 IST" finished-at="2021-05-10T21:31:13 IST">
+    <test name="Default test" duration-ms="10427" started-at="2021-05-12T14:06:40 IST" finished-at="2021-05-12T14:06:51 IST">
       <class name="com.myntra.testcases.MenTestCase">
-        <test-method status="FAIL" signature="AddMenShirtToCartAndVerifyCart()[pri:0, instance:com.myntra.testcases.MenTestCase@45820e51]" name="AddMenShirtToCartAndVerifyCart" duration-ms="27" started-at="2021-05-10T21:31:13 IST" finished-at="2021-05-10T21:31:13 IST">
+        <test-method status="PASS" signature="openBrower()[pri:0, instance:com.myntra.testcases.MenTestCase@5bcea91b]" name="openBrower" is-config="true" duration-ms="10312" started-at="2021-05-12T14:06:40 IST" finished-at="2021-05-12T14:06:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrower -->
+        <test-method status="FAIL" signature="AddMenShirtToCartAndVerifyCart()[pri:0, instance:com.myntra.testcases.MenTestCase@5bcea91b]" name="AddMenShirtToCartAndVerifyCart" duration-ms="15" started-at="2021-05-12T14:06:51 IST" finished-at="2021-05-12T14:06:51 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at java.util.Objects.requireNonNull(Unknown Source)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
-at com.myntra.pages.HomePage.clickMenTopWear(HomePage.java:31)
-at com.myntra.testcases.MenTestCase.AddMenShirtToCartAndVerifyCart(MenTestCase.java:26)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy8.click(Unknown Source)
+at com.myntra.pages.HomePage.clickMenTopWear(HomePage.java:35)
+at com.myntra.testcases.MenTestCase.AddMenShirtToCartAndVerifyCart(MenTestCase.java:22)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
