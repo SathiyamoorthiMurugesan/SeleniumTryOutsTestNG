@@ -8,17 +8,18 @@ import com.myntra.pages.HomePage;
 import com.myntra.pages.MenTopWearPage;
 
 public class MenTestCase extends Base{
-	HomePage homePage  = new HomePage(driver);
+	HomePage homePage;
 	MenTopWearPage menTopWearPage;
 	CartPage cartPage;
 	
-//	public MenTestCase() {
-//		HomePage homePage = new HomePage(driver);	
+//	MenTestCase() {
+//		HomePage homePage = new HomePage();
 //	}
 	
+			
 	@Test
 	public void AddMenShirtToCartAndVerifyCart() throws InterruptedException {
-//		homePage = new HomePage(driver);
+//		HomePage homePage = new HomePage();
 		homePage.clickMenTopWear();
 //		menTopWearPage.chooseSize();
 //		menTopWearPage.addTocard();
