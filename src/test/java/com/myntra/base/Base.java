@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 public class Base {
 	
 	public static WebDriver driver = null;
-//	HomePage homepage = new HomePage();
+	
 	@BeforeSuite
 	public void openBrower() {
 		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
