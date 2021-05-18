@@ -1,1 +1,10 @@
 https://www.toolsqa.com/selenium-cucumber-framework/page-object-design-pattern-with-selenium-pagefactory-in-cucumber/
+
+https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.html
+
+java.lang.IllegalAccessError: class org.openqa.selenium.net.UrlChecker tried to access private method 'void com.google.common.util.concurrent.SimpleTimeLimiter
+
+To avoid this error
+1. make sure to update your browser exe file
+2. update selenium java to latest version
+3. com.google.guava to latest version
