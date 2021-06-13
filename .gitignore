@@ -1,5 +1,6 @@
 123.txt
 target/*
 target/
+.settings/
 
 
