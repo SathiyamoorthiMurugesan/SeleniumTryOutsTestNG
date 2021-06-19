@@ -1,4 +1,4 @@
-package com.interview.pratice;
+package src.test.java.com.interview.pratice;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
