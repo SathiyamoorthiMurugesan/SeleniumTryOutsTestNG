@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-20T23:25:22 IST" name="Default suite" finished-at="2021-06-20T23:25:35 IST" duration-ms="13149">
+    <groups>
+    </groups>
+    <test started-at="2021-06-20T23:25:22 IST" name="Default test" finished-at="2021-06-20T23:25:35 IST" duration-ms="13149">
+      <class name="com.interview.pratice.WebTable">
+        <test-method is-config="true" signature="launchBrower()[pri:0, instance:com.interview.pratice.WebTable@5ab9e72c]" started-at="2021-06-20T23:25:22 IST" name="launchBrower" finished-at="2021-06-20T23:25:29 IST" duration-ms="7174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrower -->
+        <test-method signature="WebTableTestCases()[pri:0, instance:com.interview.pratice.WebTable@5ab9e72c]" started-at="2021-06-20T23:25:29 IST" name="WebTableTestCases" finished-at="2021-06-20T23:25:31 IST" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebTableTestCases -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.interview.pratice.WebTable@5ab9e72c]" started-at="2021-06-20T23:25:31 IST" name="closeBrowser" finished-at="2021-06-20T23:25:35 IST" duration-ms="4253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.interview.pratice.WebTable -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
